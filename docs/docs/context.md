@@ -36,7 +36,7 @@ Suppose you have a structure like:
 class Button extends React.Component {
   render() {
     return (
-      <button style={{'{{'}}background: this.props.color}}>
+      <button style={{background: this.props.color}}>
         {this.props.children}
       </button>
     );
